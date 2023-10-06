@@ -36,4 +36,3 @@ Start the Redis and MongoDB services on your system and run yarn start-server or
 
 **Authors**
 ## GLORY ADA OGBONDAH
-TOLULOPE FAKUNLE
