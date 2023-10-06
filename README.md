@@ -13,18 +13,13 @@ A Google API should be created with at least an email sending scope and a valid 
 The required environment variables should be stored in a file named .env and each line should have the format Name=Value. The table below lists the environment variables that will be used by this server:
 
 | Name               | Required                                          | Description                              |
-| ------------------ | ------------------------------------------------- | ---------------------------------------- |
+| --- | --- | --- |
 | GOOGLE_MAIL_SENDER | Yes                                               | The email address of the account         |
 |                    |                                                   | responsible for sending emails to users. |
-| ------------------ | ------------------------------------------------- | ---------------------------------------- |
 | PORT	             | No (Default: 5000)                                | The port the server should listen at.    |
-| ------------------ | ------------------------------------------------- | ---------------------------------------- |
 | DB_HOST	           | No (Default: localhost)                           | The database host.                       |
-| ------------------ | ------------------------------------------------- | ---------------------------------------- |
 | DB_PORT	           | No (Default: 27017)	                             | The database port.                       |
-| ------------------ | ------------------------------------------------- | ---------------------------------------- |
 | DB_DATABASE	       | No (Default: files_manager)                       | The database name.                       |
-| ------------------ | ------------------------------------------------- | ---------------------------------------- |
 | FOLDER_PATH	       | No (Default: /tmp/files_manager (Linux, Mac OS X) | The local folder where files are saved.  |
 |                    | & %TEMP%/files_manager (Windows))	               |                                          |
 
